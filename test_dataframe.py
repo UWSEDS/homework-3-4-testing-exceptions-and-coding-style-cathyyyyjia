@@ -14,8 +14,8 @@ class TestDataframe(unittest.TestCase):
         """
         Have the expected columns
         """
-        for col in DF.columns:
-            self.assertIn(col, COLS, "DataFrame doesn't have the expected column names.")
+        for col in COLS:
+            self.assertIn(col, DF.columns, "DataFrame doesn't have the expected column names.")
 
     def test_expected_type(self):
         """

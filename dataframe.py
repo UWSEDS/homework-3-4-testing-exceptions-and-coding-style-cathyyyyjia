@@ -9,6 +9,6 @@ from hw2 import DF # Read dataframe from homework 2
 COLS = ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
         'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
         'pH', 'sulphates', 'alcohol', 'quality']
-for col in DF.columns:
-    if col not in COLS:
+for col in COLS:
+    if col not in DF.columns:
         raise ValueError("DataFrame doesn't have the expected column names.")
