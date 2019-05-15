@@ -1,5 +1,12 @@
 # Homework 3-4: Coding style and Unit tests.
 
+##### Grade: 12/14   
+
+-2: dataframe.py: your test will pass even if the DF does not have any columns.   
+-0: test_dataframe.py.test_column_names: same as above  
+
+------
+
 **Note: This homework has a total of 14 points.**
 
 In this homework, you will create two python modules and put them in PEP8 style.
